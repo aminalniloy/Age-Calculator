@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="fi">
+<head>
+    
+    <!-------------- css link --------------------------->
+    <link rel="stylesheet" href="Htiedot.css">
+
+    <!------------------ JavaScript link ---------------------->  
+    <script src="Htiedot.js"></script>
+
+    <title>LaskeIkä</title>
+</head>
+<body>
+<div class="container">
+    <label for="enimi"> Etunimi: </label><br>
+    <input class="box" type="text"  id="enimi" value=""><br><br>
+
+    <label for="snimi"> Sukunimi: </label><br>
+    <input class="box" type="text"  id="snimi" value=""><br><br>
+
+    <label for="spvm"> Syntymäpäivä: </label><br>
+    <input class="box" type="date"  id="spvm" value=""><br><br><br><br>
+
+    <label for=""> Suosikki aihe? </label><br>
+    <input  type="radio"  id="html" value=""><span> HTML</span><br>
+    <input  type="radio"  id="css" value=""> <span> CSS</span> <br>
+    <input  type="radio"  id="python" value=""> <span> Python</span> <br><br>
+
+    <label for="">Miten tulet kouluun?</label><br>
+    <input  type="checkbox"  id="spvm" value=""> <span> Bussilla</span><br>
+    <input  type="checkbox"  id="" value=""> <span> Junalla</span> <br>
+    <input  type="checkbox"  id="" value=""><span> Pyörällä</span> <br>
+    <input  type="checkbox"  id="" value=""> <span> Autolla</span><br><br>
+
+    <input class="btn" type="button" value="Laske ikä" onclick="Laskeikä()">
+   
+    <input class="resp" type="text"  id="result" value="..." disabled><br><br>
+
+</div>
+
+</body>
+</html>
